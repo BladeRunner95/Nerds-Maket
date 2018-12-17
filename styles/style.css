@@ -1,0 +1,288 @@
+body{
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* @media (min-width: 400px) and (max-width: 1200px) {
+    .adaptive{display:;}
+    } */
+
+.wrapper1200{
+    width: 1200px;
+}
+
+.header{
+    background: #eeeeee;
+}
+
+.navbar-brand:hover{
+    opacity: 0.7;
+}
+
+.navbar-brand:active {
+    opacity: 0.3;
+}
+
+.nav-link{
+    color: black;
+}
+
+.nav-link:hover{
+    color:#fb565a;
+}
+
+.nav-link:active{
+    color:#ababab;
+}
+
+.mainleftp1{
+    text-align: left;
+    font-size: 55px;
+    line-height: 1;
+    padding-top: 76px;
+}
+
+.btnpinklg{
+    background-color: #fb565a;
+    color: white;
+    height: 50px;
+    width: 240px;
+    margin-top: 15px;
+}
+
+.btnpinklg:hover, .btnpink:hover{
+    background-color: #e74246;
+    color: white;
+    box-shadow: none;
+}
+.btnpinklg:active, .btnpink:active{
+    background-color: #d7373b;
+    color: #dd5357;
+    box-shadow: none;
+}
+
+.titles{
+    padding-top: 30px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.text-works{
+    padding-top: 25px;
+    font-size: 16px;
+    font-weight: lighter;
+    text-align: left;
+}
+
+.btnpink{
+    background-color: #fb565a;
+    color: white;
+    height: 50px;
+    width: 160px;
+    margin-top: 15px;
+
+}
+
+.btngreen{
+    background-color: #00ca74; 
+    color: white;
+    height: 50px;
+    width: 160px;
+    margin-top: 15px;
+}
+
+.btngreen:hover{
+    background-color: #00bc6c;
+    color: white;
+    box-shadow: none;
+} 
+
+.btngreen:active{
+    background-color: #00aa62;
+    color: #4dc491;
+    box-shadow: none;
+}
+
+.btnyellow{
+    background-color: #efc84a; 
+    color: white;
+    height: 50px;
+    width: 160px;
+    margin-top: 15px;
+}
+
+.btnyellow:hover{
+    background-color: #eab534;
+    color: white;
+    box-shadow: none;
+}
+.btnyellow:active{
+    background-color: #e5a722;
+    color: #edc265;
+    box-shadow: none;
+}
+
+hr{
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+.whoweare{
+ font-size: 45px;
+ margin-top: 50px;
+ font-weight: bold;
+}
+
+/* nachalo formatirovanie texta s red liniyami */
+.orders{
+    font-size: 16px;
+    margin-top: 35px;
+    font-weight: bold;
+}
+
+.redposition{
+ position: relative;
+ padding-top: 30px;
+ margin-top: 35px;
+}
+
+.redline{
+    position:absolute;
+    width: 25px;
+    height: 2px;
+    background-color: red;
+    top: 2px;
+}
+
+.redlinetext{
+    position: absolute;
+    bottom: 1px;
+    left: 35px;
+    font-size: 16px;
+    font-weight: lighter;
+}
+/* konec formatirovanie texta s red liniyami */
+
+.percentage{
+    font-size: 45px;
+    /* margin-top: 40px; */
+}
+
+.ills{
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+.img-layout{
+    opacity: 0.65;
+}
+
+.img-layout:hover{
+   opacity: 1;
+}
+
+.img-layout:active{
+    opacity: 0.2;
+  }
+
+.flexicons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* soc seti */
+.social-border {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: #e1e1e1;
+    line-height: 80px;
+}
+.social-border:active {
+    background-color: #d7373b;
+    color: #e37376;
+}
+
+.social-border:hover {
+    background-color: #e74246;
+}
+
+.social-vk {
+    width: 30px;
+    margin-left: 27px;
+}
+
+.social-fb {
+    width: 15px;
+    margin-left: 30px;
+}
+
+.social-insta {
+    width: 25px;
+    margin-left: 27px;
+}
+
+/* footer */
+.footer-text{
+ font-weight: bold;
+ font-size: 30px;
+}
+
+
+.footer-text2{
+font-weight: lighter;
+position: absolute;
+bottom: 12px;
+}
+
+
+/* .a-vk {
+    margin-left: 20px;
+}
+
+.a-fb {
+    margin-left: 20px;
+}
+ */
+
+/* .a-insta {
+    margin-left: 20px;
+} */
+/* 
+@media (max-width: 576px) {
+     body {
+         width:376px; 
+     }
+ }
+
+@media (max-width: 768px) {
+    body{
+        width:568px;
+    }
+ }
+
+@media (max-width: 992px) {
+    body{
+        width: 792px;
+    }
+ }
+
+@media (max-width: 1200px) { 
+    body{
+        width: 1000px;
+    }
+} */
+
+/* Catalog.html */
+.shablons{
+    font-size: 55px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 4em;
+}
+
+.header-2{
+    height: 355px;
+}
